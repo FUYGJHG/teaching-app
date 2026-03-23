@@ -1,0 +1,134 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #f2f2f2;
+}
+
+/* ===== Header ===== */
+header {
+    background: #1a1a1a;
+    color: #00aaff;
+    padding: 18px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 2px solid #00aaff;
+    box-shadow: 0 4px 10px rgba(0, 170, 255, 0.4);
+}
+
+/* ===== Navigation Menu ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #1c1c1c;
+    padding: 14px;
+    border-bottom: 1px solid #222;
+}
+
+nav a {
+    color: #b5b5b5;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+/* ===== Container ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== Card Design ===== */
+.card {
+    background: #161616;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 15px rgba(0, 170, 255, 0.12);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 25px rgba(0, 170, 255, 0.22);
+}
+
+/* ===== Buttons ===== */
+.btn {
+    padding: 12px 18px;
+    background: #00aaff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0088dd;
+}
+
+/* ===== Quiz Options ===== */
+.option {
+    padding: 12px;
+    background: #222;
+    border-radius: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #333;
+}
+
+.option:hover {
+    background: #2a2a2a;
+}
+
+.option.correct {
+    background: #0f4f23;
+    border: 1px solid #00ff88;
+}
+
+.option.wrong {
+    background: #4f0f0f;
+    border: 1px solid #ff4444;
+}
+
+/* ===== Inputs ===== */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #1c1c1c;
+    color: #eee;
+}
+
+/* ===== Video ===== */
+video {
+    border-radius: 12px;
+    border: 2px solid #00aaff;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
